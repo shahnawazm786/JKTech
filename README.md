@@ -41,8 +41,8 @@ Project Structure:
 /src
 └── main
 └── java/...     
-└── test
-└── java/...     -> REST Assured tests
+└── test -> Test and utilities (Token and Test)
+└── test -> testng.xml - to run from the testng 
 
 /pom.xml              -> Maven build configuration
 /target               -> Compiled files, reports
