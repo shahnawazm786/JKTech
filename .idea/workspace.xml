@@ -4,11 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0030fad7-a342-4eac-b044-b289f4f55c94" name="Changes" comment="" />
+    <list default="true" id="0030fad7-a342-4eac-b044-b289f4f55c94" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/auth/AuthTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/auth/LoginPayload.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/auth/SignupPayload.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/books/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/books/NewBook.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/books/UpdateBook.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/healths/HealthCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/listeners/ExtentReportListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/IConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Payload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TokernProvider.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -22,9 +60,103 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Assignment/JKTech/BookStoreAPI"
   }
 }]]></component>
+  <component name="RunManager" selected="TestNG.C:/Assignment/JKTech/BookStoreAPI/src/test/java/testng.xml">
+    <configuration name="BookTest.Test_Get_Book_By_ID" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BookStoreAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="books.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="books" />
+      <option name="MAIN_CLASS_NAME" value="books.BookTest" />
+      <option name="METHOD_NAME" value="Test_Get_Book_By_ID" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookTest.Test_Update_Book" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BookStoreAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="books.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="books" />
+      <option name="MAIN_CLASS_NAME" value="books.BookTest" />
+      <option name="METHOD_NAME" value="Test_Update_Book" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookTest.Test_Update_Book_No_Found" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BookStoreAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="books.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="books" />
+      <option name="MAIN_CLASS_NAME" value="books.BookTest" />
+      <option name="METHOD_NAME" value="Test_Update_Book_No_Found" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Assignment/JKTech/BookStoreAPI/src/test/java/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BookStoreAPI" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HealthCheck.Test_Health_Check" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BookStoreAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="healths.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="healths" />
+      <option name="MAIN_CLASS_NAME" value="healths.HealthCheck" />
+      <option name="METHOD_NAME" value="Test_Health_Check" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Assignment/JKTech/BookStoreAPI/src/test/java/testng.xml" />
+        <item itemvalue="TestNG.HealthCheck.Test_Health_Check" />
+        <item itemvalue="TestNG.BookTest.Test_Update_Book_No_Found" />
+        <item itemvalue="TestNG.BookTest.Test_Update_Book" />
+        <item itemvalue="TestNG.BookTest.Test_Get_Book_By_ID" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,5 +167,16 @@
       <updated>1750564936889</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
