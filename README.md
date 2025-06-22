@@ -77,5 +77,6 @@ Check GitHub Actions run artifacts to download ExtentReports.
 
 Author:
 -------
-Mohammad Shahnawaz
-mshahnawaz072022@gmail.com
+## Mohammad Shahnawaz
+
+## mshahnawaz072022@gmail.com
