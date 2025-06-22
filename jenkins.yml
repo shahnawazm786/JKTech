@@ -1,0 +1,47 @@
+name: Book Store Api
+
+on:
+  push:
+    branches: https://github.com/shahnawazm786/JKTech/tree/main
+  pull_request:
+    branches: https://github.com/shahnawazm786/JKTech/tree/main
+
+jobs:
+  build-test:
+    runs-on: windows-latest
+    name: Build & Test on Windows
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Java 17
+        uses: Api regression test
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Cache Maven packages
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.m2/repository
+          key: windows-maven-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            windows-maven-
+
+      - name: Build with Maven
+        run: mvn clean install
+
+      - name: Run Tests with Maven
+        run: mvn test
+
+      - name: Generate ExtentReports (optional if custom phase)
+        run: mvn surefire-report:report-only
+
+      - name: Upload ExtentReport HTML
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: extent-report
+          path: reports/surefire-reports/
