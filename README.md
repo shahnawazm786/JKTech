@@ -51,8 +51,7 @@ How to Run Locally:
 -------------------
 1. Ensure Java 17 and Maven are installed
 2. Clone the repo
-3. Run:
-   mvn clean install
+3. Run: mvn clean install
    
 
 How to Test:
