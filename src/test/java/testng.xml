@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="listeners.ExtentReportListener"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Auth Test">
+        <classes>
+            <class name="auth.AuthTest">
+                <methods>
+                    <include name="Test_Signup"/>
+                    <include name="Test_Signup_Negative"/>
+                    <include name="Test_Login"/>
+                    <include name="Test_Login_Negative"/>
+                </methods>
+            </class>
+            <class name="books.BookTest">
+                <methods>
+                    <include name="Test_Add_Book_Negative"/>
+                    <include name="Test_Add_Book"/>
+                    <include name="Test_Delete_Book"/>
+                    <include name="Test_Delete_Book_Not_Found"/>
+                    <include name="Test_Get_Book"/>
+                    <include name="Test_Get_Book_By_ID"/>
+                    <include name="Test_Update_Book"/>
+                    <include name="Test_Update_Book_No_Found"/>
+                </methods>
+            </class>
+            <class name="healths.HealthCheck">
+                <methods>
+                    <include name="Test_Health_Check"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
